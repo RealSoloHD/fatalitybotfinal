@@ -250,7 +250,7 @@ if(command === "apply") {
     const m = await message.channel.send("Apply for Staff!");
 
     m.edit(`Apply for Staff at http://FatalityMC.net/apply
-Requirements:
+**Requirements:**
 1) Must be 14 years of age or older!
 2) Must have at least 900 minutes online!`);
 
