@@ -54,6 +54,7 @@ module.exports = {
          return message.channel.send({
             embed
         })
+
     },
 
     player: function (data, message, Discord) {
@@ -101,11 +102,11 @@ module.exports = {
             .setColor("#FABE58")
             .setDescription('Available Commands:')
             .addField("!Help", "Displays Available Commands")
-            .addField("!Webstore", "Fatality Hub Webstore")
             .addField("!IP", "Fatality Hub Server IP")
             .addField("!Invite", "Invite Link to the Fatality Hub Discord")
             .addField("!Rules", "Fatality Hub Rules")
             .addField("!Forums", "Fatality Hub Forums")
+            .addField("!Apply", "Fatality Hub Staff Application")
             .addField("Creator", "Solo HD#0014 & MattTek#7765")
 
 
