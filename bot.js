@@ -202,7 +202,7 @@ bot.on("message", async message => {
   // Also good practice to ignore any message that does not start with our prefix, 
 
   // which is set in the configuration file.
-
+ 
   if(message.content.indexOf(config.prefix) !== 0) return;
 
   
@@ -244,6 +244,18 @@ if(command === "forums") {
     m.edit(`Join our Server Forums at http://www.FatalityMC.net`);
 
   }
+    
+if(command === "apply") {
+
+    const m = await message.channel.send("Apply for Staff!");
+
+    m.edit(`Apply for Staff at http://FatalityMC.net/apply
+Requirements:
+1) Must be 14 years of age or older!
+2) Must have at least 900 minutes online!`);
+
+  }
+
 
   if(command === "store") {
 
