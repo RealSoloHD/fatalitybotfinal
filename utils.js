@@ -106,7 +106,7 @@ module.exports = {
             .addField("!Invite", "Invite Link to the Fatality Hub Discord")
             .addField("!Rules", "Fatality Hub Rules")
             .addField("!Forums", "Fatality Hub Forums")
-            .addField("Creator", "Solo HD#0014 & MattTek#7765")
+            .addField("Creator", "Solo HD#0014 & MattTek#7765 Test")
 
 
         return message.channel.send({
