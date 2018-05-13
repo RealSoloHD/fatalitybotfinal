@@ -174,7 +174,7 @@ bot.on("ready", () => {
 
   // docs refer to as the "ClientUser".
 
-  bot.user.setActivity(`Fatality.net | !help`);
+  bot.user.setActivity(`FatalityMC.net | !help`);
 
 });
 
