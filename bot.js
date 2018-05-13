@@ -137,8 +137,7 @@ let chestIDs = [
     "lightning-chest",
     "fortune-chest",
     "kings-chest"
-];
-
+]
 bot.login(conf.token);
 const port = process.env.PORT || 5000;
 
@@ -174,7 +173,7 @@ bot.on("ready", () => {
 
   // docs refer to as the "ClientUser".
 
-  bot.user.setActivity(`FatalityMC.net | !help`);
+  bot.user.setListening(`FatalityMC.net | !help`);
 
 });
 
