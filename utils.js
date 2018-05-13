@@ -103,7 +103,7 @@ module.exports = {
             .setDescription('Here the list of available commands')
             .addField("!help", "Display this help list")
             .addField("!webstore", "Fatality Webstore")
-            .addField("!ip", "Fatality IP")
+            .addField("!ip", "Fatality Server IP")
             .addField("!invite", "Invites you to the Fatality Discord")
             .addField("!rules", "Fatality Rules")
             .addField("!forums", "Fatality forums")
