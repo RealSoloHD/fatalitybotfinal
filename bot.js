@@ -17,7 +17,7 @@ let request = axios.create({
 
 bot.on('ready', () => {
     console.log(`Logged in as ${bot.user.tag}!`);
-    bot.user.setActivity(`Fatality.net | !help`);
+    bot.user.setActivity(`FatalityMC.net | !help`);
 });
 
 
