@@ -391,7 +391,6 @@ Rules:
   
 
   if(command === "ban") {
-
     // Most of this command is identical to kick, except that here we'll only let admins do it.
 
     // In the real world mods could ban too, but this is just an example, right? ;)
@@ -444,7 +443,7 @@ Rules:
 
     // Ooooh nice, combined conditions. <3
 
-    if(!deleteCount || deleteCount < 2 || deleteCount > 100)
+    if(!deleteCount || deleteCount < 1 || deleteCount > 100)
 
       return message.reply("Please provide a number between 2 and 100 for the number of messages to delete");
 
