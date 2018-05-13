@@ -142,8 +142,7 @@ bot.login(conf.token);
 const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
-    console.log('Our app is running on http://localhost:' + port);
-});
+    console.log('Our app is running on http://localhost:' + port)});
 
 setInterval(() => {
  http.get('https://murmuring-citadel-27537.herokuapp.com/');
@@ -173,7 +172,7 @@ bot.on("ready", () => {
 
   // docs refer to as the "ClientUser".
 
-  bot.user.setListening(`FatalityMC.net | !help`);
+  bot.user.setActivity(`FatalityMC.net | !help`);
 
 });
 
