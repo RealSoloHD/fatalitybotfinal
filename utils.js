@@ -52,7 +52,7 @@ module.exports = {
             );
         }
 
-        return message.channel.send({
+         return message.channel.send({
             embed
         })
     },
@@ -107,7 +107,7 @@ module.exports = {
             .addField("!invite", "Invites you to the Fatality Discord")
             .addField("!rules", "Fatality Rules")
             .addField("!forums", "Fatality forums")
-            .addField("Creator", "Solo HD#0014")
+            .addField("Creator", "Solo HD#0014 & MattTek#7765")
 
 
         return message.channel.send({
