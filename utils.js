@@ -40,7 +40,6 @@ module.exports = {
         const embed = new Discord.RichEmbed()
             .setTitle("Top Donations Player")
             .setDescription("5 Best Donations Players");
-
         data.sort((a, b) => {
             return b.donations - a.donations
         });
@@ -100,13 +99,13 @@ module.exports = {
         const embed = new Discord.RichEmbed();
         embed.setTitle("Help")
             .setColor("#FABE58")
-            .setDescription('Here the list of available commands')
-            .addField("!help", "Display this help list")
-            .addField("!webstore", "Fatality Webstore")
-            .addField("!ip", "Fatality Server IP")
-            .addField("!invite", "Invites you to the Fatality Discord")
-            .addField("!rules", "Fatality Rules")
-            .addField("!forums", "Fatality forums")
+            .setDescription('Available Commands:')
+            .addField("!Help", "Display this help list")
+            .addField("!Webstore", "Fatality Webstore")
+            .addField("!IP", "Fatality Server IP")
+            .addField("!Invite", "Invite Link to the Fatality Hub Discord")
+            .addField("!Rules", "Fatality Rules")
+            .addField("!Forums", "Fatality Hub Forums")
             .addField("Creator", "Solo HD#0014 & MattTek#7765")
 
 
