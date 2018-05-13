@@ -241,7 +241,7 @@ if(command === "forums") {
 
     const m = await message.channel.send("Here is the link to our forums!");
 
-    m.edit(`Join our server forums at http://www.FatalityMC.net`);
+    m.edit(`Join our Server Forums at http://www.FatalityMC.net`);
 
   }
 
@@ -263,25 +263,25 @@ if(command === "forums") {
 
     const m = await message.channel.send("Here is the IP to our server!");
 
-    m.edit(`Our Minecraft server IP is Hub.FatalityMC.com`);
+    m.edit(`Our Minecraft Server IP is Hub.FatalityMC.com`);
 }
   if(command === "serverip") {
 
     const m = await message.channel.send("Here is the IP to our server!");
 
-    m.edit(`Our Minecraft server IP is Hub.FatalityMC.com`);
+    m.edit(`Fatality Hub's Server IP is Hub.FatalityMC.com`);
 }
   if(command === "discord") {
 
     const m = await message.channel.send("Here is the link to our discord!");
 
-    m.edit(`Here is the link to our discord: https://discord.gg/rHCzuYY`);
+    m.edit(`Fatality Hub Discord Invite: https://discord.gg/rHCzuYY`);
 }
   if(command === "invite") {
 
     const m = await message.channel.send("Here is the link to our discord!");
 
-    m.edit(`Here is the link to our discord: https://discord.gg/rHCzuYY`);
+    m.edit(`Fatality Hub Discord Invite: https://discord.gg/rHCzuYY`);
 }
 
   if(command === "rules") {
