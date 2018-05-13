@@ -250,14 +250,14 @@ if(command === "forums") {
 
     const m = await message.channel.send("Here is the link to our Webstore!");
 
-    m.edit(`See our server Webstore at http://store.Fatality.com`);
+    m.edit(`Donate to the Fatality Hub at http://store.fatalitymc.com`);
 
   }
   if(command === "webstore") {
 
     const m = await message.channel.send("Here is the link to our forums!");
 
-    m.edit(`Join our server forums at http://www.FatalityMC.net`);
+    m.edit(`Donate to the Fatality Hub at http://store.fatalitymc.com`);
 
   }
   if(command === "ip") {
