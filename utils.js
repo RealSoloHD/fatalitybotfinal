@@ -107,6 +107,7 @@ module.exports = {
             .addField("!Rules", "Fatality Hub Rules")
             .addField("!Forums", "Fatality Hub Forums")
             .addField("!Apply", "Fatality Hub Staff Application")
+            .addField("!Webstore", "Fatality Hub Webstore")
             .addField("Creator", "Solo HD#0014 & MattTek#7765")
 
 
