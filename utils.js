@@ -107,6 +107,8 @@ module.exports = {
             .addField("!invite", "Invites you to the Fatality Discord")
             .addField("!rules", "Fatality Rules")
             .addField("!forums", "Fatality forums")
+            .addField("Creator", "Solo HD#0014")
+
 
         return message.channel.send({
             embed
