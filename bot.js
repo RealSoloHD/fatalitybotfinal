@@ -174,33 +174,14 @@ bot.on("ready", () => {
 
   // docs refer to as the "ClientUser".
 
-  bot.user.setActivity(`bit.ly/solohdyt | !help`);
+  bot.user.setActivity(`Fatality.net | !help`);
 
 });
 
 
 
-bot.on("guildCreate", guild => {
-
-  // This event triggers when the bot joins a guild.
-
-  console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
-
-  bot.user.setActivity(`bit.ly/VexeronBot | !help`);
-
-});
 
 
-
-bot.on("guildDelete", guild => {
-
-  // this event triggers when the bot is removed from a guild.
-
-  console.log(`I have been removed from: ${guild.name} (id: ${guild.id})`);
-
-  bot.user.setActivity(`bit.ly/solohdyt | !help`);
-
-});
 
 
 
