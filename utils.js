@@ -95,7 +95,7 @@ module.exports = {
             embed
         });
     },
-
+//ONLY DO ANYTHING TO HELP no other areas
     help: function(message, Discord){
         const embed = new Discord.RichEmbed();
         embed.setTitle("Help")
